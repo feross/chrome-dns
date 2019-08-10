@@ -11,9 +11,7 @@
 
 This module lets you use the Node.js [dns](https://nodejs.org/api/dns.html) API in [Chrome Packaged Apps](https://developer.chrome.com/apps/about_apps.html).
 
-The chrome.dns API for Chrome Apps is not documented, but it still available. You need the "dns" permission in your manifest.
-
-As of August 2019, it appears that the API is only available if you use Chrome Dev channel or Canary channel.
+The chrome.dns API for Chrome Apps is not documented, but it still available. You need the "dns" permission in your manifest. As of August 2019, it appears that the API is only available if you use Chrome Dev channel or Canary channel.
 
 Instead of learning the quirks of Chrome's `chrome.dns` API for networking in Chrome Apps just **use the higher-level node API you're familiar with**. Then, compile your code with [browserify](https://github.com/substack/node-browserify) and you're all set!
 
