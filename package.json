@@ -1,7 +1,7 @@
 {
   "name": "chrome-dns",
   "description": "Use the Node `dns` API in Chrome Apps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
