@@ -9,7 +9,7 @@
 
 ### Use the Node `dns` API in Chrome Apps
 
-This module lets you use the Node.js [dns](http://nodejs.org/api/dns.html) API in [Chrome Packaged Apps](http://developer.chrome.com/apps/about_apps.html).
+This module lets you use the Node.js [dns](https://nodejs.org/api/dns.html) API in [Chrome Packaged Apps](https://developer.chrome.com/apps/about_apps.html).
 
 The chrome.dns API for Chrome Apps is not documented, but it still available. You need the "dns" permission in your manifest.
 
@@ -42,7 +42,7 @@ dns.lookup('feross.org', (err, address, family) => {
 })
 ```
 
-See nodejs.org for full API documentation: [dns](http://nodejs.org/api/dns.html)
+See nodejs.org for full API documentation: [dns](https://nodejs.org/api/dns.html)
 
 ## contribute
 
@@ -52,4 +52,4 @@ client code. The tests currently require Chrome Canary.
 
 ## license
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org) & John Hiesey.
+MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org)
